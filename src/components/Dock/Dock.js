@@ -14,22 +14,22 @@ const Dock = (props) => {
         <div className="dock">
             <ul>
                 <li>
-                    <img className="appIcon" src={finder} />
+                    <img className="appIcon" src={finder} alt="finder" />
                 </li>
                 <li>
-                    <img className="appIcon" src={mail} />
+                    <img className="appIcon" src={mail} alt="mail"/>
                 </li>
                 <li>
-                    <img className="appIcon" src={preferences} />
+                    <img className="appIcon" src={preferences} alt="preferences" />
                 </li>
                 <li>
-                    <img className="appIcon" src={safari} onClick={() => setTopWindow("Safari")} />
+                    <img className="appIcon" src={safari} alt="safari" onClick={() => setTopWindow("Safari")} />
                 </li>
                 <li>
-                    <img className="appIcon" src={terminal} onClick={() => setTopWindow("Shell")} />
+                    <img className="appIcon" src={terminal} alt="terminal" onClick={() => setTopWindow("Shell")} />
                 </li>
                 <li>
-                    <img className="appIcon" src={trash} />
+                    <img className="appIcon" src={trash} alt="trash" />
                 </li>
             </ul>
         </div>

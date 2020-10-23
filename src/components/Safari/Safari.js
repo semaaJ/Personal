@@ -27,7 +27,7 @@ const Safari = (props) => {
 
   return (
       <Draggable> 
-        <div class="window" onClick={() => setTopWindow("Safari")}>
+        <div class={isTopWindow} onClick={() => setTopWindow("Safari")}>
         <div class="top">
           <div class="panel">
             <span class="first"></span>
@@ -73,7 +73,7 @@ const Safari = (props) => {
           </div>
 
           <div className="webpageContainer">
-            <img className="webpage" src={tabInfo[tabState].image} />
+            <img className="webpage" alt="webpage" src={tabInfo[tabState].image} />
           </div>
       </div>
     </Draggable>

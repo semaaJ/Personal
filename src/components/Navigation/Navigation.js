@@ -11,7 +11,7 @@ const Navigation = () => {
         <>
             <div className="navigation">
                 <div className="navDiv">
-                    <div className="navigationItem"><img className="icon" src={icon} /></div>
+                    <div className="navigationItem"><img alt="apple logo" className="icon" src={icon} /></div>
                     <div className="navigationItem strong">Finder</div>
                     <div className="navigationItem">File</div>
                     <div className="navigationItem">Edit</div>
