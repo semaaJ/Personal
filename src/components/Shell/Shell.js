@@ -25,8 +25,8 @@ const shellData = (bool) => {
             </p>
 
             <p className="return">
-                My CV is availible <a href="#" className="link">here</a> and if you would like to get in touch with me, 
-                feel free to contact me via <a href="#" className="link">email</a>, <a href="#" className="link">Github</a> or <a href="#" className="link">LinkedIn</a>!
+                My CV is availible <a href="https://www.google.com" className="link">here</a> and if you would like to get in touch with me, 
+                feel free to contact me via <a href="https://www.google.com" className="link">email</a>, <a href="https://www.google.com" className="link">Github</a> or <a href="https://www.google.com" className="link">LinkedIn</a>!
             </p> 
 
             <p className="function">
